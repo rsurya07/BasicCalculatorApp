@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText_op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/op1_hint"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText_op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/op2_hint"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView_ResultLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/result_label_text"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="18dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@android:color/holo_green_dark"
+        tools:text="Calculated Value"/>
+
+    <Button
+        android:id="@+id/button_op_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/op_plus_text"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_op_minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/op_minus_text"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_op_mult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/op_mult_text"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_op_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/op_div_text"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_op_pct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/op_pct_text"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_op_sqrt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/op_sqrt_text"
+        android:textSize="18sp"/>
+
+</LinearLayout>

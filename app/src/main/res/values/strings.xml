@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="op1_hint">Enter a decimal number</string>
+    <string name="op2_hint">Enter a decimal number</string>
+    <string name="result_label_text">Result</string>
+    <string name="op_plus_text"> + </string>
+    <string name="op_minus_text"> - </string>
+    <string name="op_mult_text"> * </string>
+    <string name="op_div_text"> / </string>
+    <string name="op_pct_text"> % </string>
+    <string name="op_sqrt_text"> \u221A </string>
+
+</resources>
